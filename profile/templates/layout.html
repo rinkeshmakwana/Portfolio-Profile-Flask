@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  {% block title %}
+    <title>Rinkesh Makwana - Profile</title>
+  {% endblock %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/color.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<!--{% with messages = get_flashed_messages(with_categories=True) %}-->
+<!--  {% if messages %}-->
+<!--    {% for category, message in messages %}-->
+<!--      <div class="alert alert-{{ category }}">-->
+<!--        {{ message }}-->
+<!--      </div>-->
+<!--    {% endfor %}-->
+<!--  {% endif %}-->
+<!--{% endwith %}-->
+{% block body %} {%  endblock %}
+<!--Contact-->
+<div class="background" style="background-image: url(static/img/img_bg_main.jpg)">
+<div id="contact" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <p id="contacts_header" class="section__title">Get in touch_</p>
+    </div>
+  </div>
+  <div class="row contacts">
+    <div class="col-md-5 col-lg-4">
+      {% for i in user %}
+      <div class="contacts__list">
+        <dl class="contact-list">
+          <dt>Phone:</dt>
+          <dd><a href="tel:{{ i.mobile }}">{{ i.mobile }}</a></dd>
+          <dt>Skype:</dt>
+          <dd><a href="skype:{{ i.skype_id }}">{{ i.skype_id }}</a></dd>
+          <dt>Email:</dt>
+          <dd><a href="mailto:{{ i.email }}">{{ i.email }}</a></dd>
+        </dl>
+      </div>
+      <div class="contacts__social">
+        <ul>
+          <li><a href="{{ i.fb_url }}" target="_blank">Facebook</a></li>
+          <li><a href="{{ i.linkedin_url }}" target="_blank">Linkedin</a></li>
+          <li><a href="{{ i.github_url }}" target="_blank">GitHub</a></li>
+          <li><a href="#" target="_blank">Bitbucket</a></li>
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-md-7 col-lg-5">
+      <div class="contacts__form">
+        <p class="contacts__form-title">Or just write me a letter here_</p>
+        <form  action="/" method="post">
+          <div class="form-group">
+            <input class="form-field js-field-name" type="text" name="name" placeholder="Your name" required>
+            <span class="form-validation"></span>
+            <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+          </div>
+          <div class="form-group">
+            <input class="form-field js-field-email" type="email" name="email"  placeholder="Your e-mail" required>
+            <span class="form-validation"></span>
+            <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+          </div>
+          <div class="form-group">
+            <input class="form-field js-field-tel" type="tel" name="mobile"  placeholder="Your Mobile" required>
+            <span class="form-validation"></span>
+            <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+          </div>
+          <div class="form-group">
+            <textarea class="form-field js-field-message" name="message" placeholder="Type the message here" required></textarea>
+            <span class="form-validation"></span>
+            <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+          </div>
+          <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+        </form>
+      </div>
+      <div class="footer">
+        {% for i in user %}
+        <p>© 2020 {{ i.name }}. All Rights Reserved</p>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<!--Contact-->
+  <script src="{{ url_for('static', filename='js/jquery-2.2.4.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/contacts.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.waypoints.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/mbclicker.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/menu.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/mobile-menu.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/portfolio-filter.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/progress-list.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/section.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/slider-carousel.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/site-btn.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/style-switcher.js') }}"></script>
+</body>
+</html>
