@@ -2,152 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2076ef-3a35-4a89-84f0-b472b635c322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinkesh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Flaticon.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/feather.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/feather.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/feather.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/feather.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFUZ0bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFVZ0b.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFVp0bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFW50bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFWZ0bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/opensans/mem8YaGs126MiZpBA-UFWp0bbck.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/pct.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/pct.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/pct.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/pct.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_article_photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_avatar1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_bg_header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_bg_header1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_bg_main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_blog_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_blog_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_blog_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_btn_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_project_1_mono.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_project_2_mono.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/img_project_3_mono.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/cd-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/complete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo-docs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo-old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/slider/img-slide-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/avatar-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/img-avatar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/img-avatar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/user/img-avatar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/AUSTRALIA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/BRAZIL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/GERMANY.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/PHONE1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/PHONE2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/PHONE3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/PHONE4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/UK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/USA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/dashborad-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/dashborad-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/dashborad-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/dashborad-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/dashborad-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/emoticon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/img-round1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/p4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/profile-person1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/slider5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/slider6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/slider7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgadmin/widget/user-blur-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.waypoints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/mbclicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/mobile-menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/portfolio-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/progress-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/site-btn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/slider-carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/style-switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/apexcharts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/dashboard-main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/pcoded.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/ripple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jsadmin/vendor-all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/editBlogs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,26 +120,30 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="147" key="GridCell.Tab.0.bottom" timestamp="1585239162801">
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1585282897660">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585239162801" />
-    <state width="1345" height="147" key="GridCell.Tab.0.center" timestamp="1585239162801">
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1585282897660" />
+    <state width="1345" height="147" key="GridCell.Tab.0.bottom" timestamp="1585297358597">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585239162801" />
-    <state width="1345" height="147" key="GridCell.Tab.0.left" timestamp="1585239162801">
+    <state width="1345" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
+    <state width="1345" height="147" key="GridCell.Tab.0.center" timestamp="1585297358597">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585239162801" />
-    <state width="1345" height="147" key="GridCell.Tab.0.right" timestamp="1585239162801">
+    <state width="1345" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
+    <state width="1345" height="147" key="GridCell.Tab.0.left" timestamp="1585297358596">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585239162801" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585236035228">
+    <state width="1345" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585297358596" />
+    <state width="1345" height="147" key="GridCell.Tab.0.right" timestamp="1585297358597">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585236035228" />
+    <state width="1345" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585289310613">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585289310613" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585218250002">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

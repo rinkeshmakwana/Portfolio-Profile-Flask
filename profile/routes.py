@@ -1,6 +1,6 @@
 from flask import render_template, request, session, redirect, url_for, flash
 from profile import app, db, bcrypt
-from profile.forms import LoginForm
+from profile.forms import LoginForm, UpdateProfileForm
 from profile.models import User, Blogs, Testimonials, Projects, Contacts
 from flask_login import login_user, current_user, logout_user, login_required
 
@@ -63,8 +63,34 @@ def login():
 @app.route('/profile', methods=['GET', 'POST'])
 @login_required
 def profile():
+    form = UpdateProfileForm()
+    if form.validate_on_submit():
+        current_user.name = form.name.data
+        current_user.email = form.email.data
+        current_user.designation = form.designation.data
+        current_user.age = form.age.data
+        current_user.mobile = form.mobile.data
+        current_user.address = form.address.data
+        current_user.github_url = form.github_url.data
+        current_user.linkedin_url = form.linkedin_url.data
+        current_user.fb_url = form.fb_url.data
+        current_user.skype_id = form.skype_id.data
+        db.session.commit()
+        flash('Your profile details updated','success')
+        return redirect(url_for('profile'))
+    elif request.method == 'GET':
+        form.name.data = current_user.name
+        form.email.data = current_user.email
+        form.designation.data = current_user.designation
+        form.age.data = current_user.age
+        form.mobile.data = current_user.mobile
+        form.address.data = current_user.address
+        form.github_url.data = current_user.github_url
+        form.linkedin_url.data = current_user.linkedin_url
+        form.fb_url.data = current_user.fb_url
+        form.skype_id.data = current_user.skype_id
     user = User.query.filter_by(id=1).first()
-    return render_template('/profile.html', user=user)
+    return render_template('/profile.html', user=user, form=form)
 
 
 @app.route('/editblogs', methods=['GET', 'POST'])
