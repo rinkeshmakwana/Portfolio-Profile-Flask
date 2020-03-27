@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/static/jsadmin/pcoded.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile/static/jsadmin/pcoded.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/templates/editBlogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/templates/editBlogs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,26 +124,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1585282897660" />
-    <state width="1345" height="147" key="GridCell.Tab.0.bottom" timestamp="1585297358597">
+    <state width="1345" height="147" key="GridCell.Tab.0.bottom" timestamp="1585308377463">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
-    <state width="1345" height="147" key="GridCell.Tab.0.center" timestamp="1585297358597">
+    <state width="1345" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585308377463" />
+    <state width="1345" height="147" key="GridCell.Tab.0.center" timestamp="1585308377463">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
-    <state width="1345" height="147" key="GridCell.Tab.0.left" timestamp="1585297358596">
+    <state width="1345" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585308377463" />
+    <state width="1345" height="147" key="GridCell.Tab.0.left" timestamp="1585308377463">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585297358596" />
-    <state width="1345" height="147" key="GridCell.Tab.0.right" timestamp="1585297358597">
+    <state width="1345" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585308377463" />
+    <state width="1345" height="147" key="GridCell.Tab.0.right" timestamp="1585308377463">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585297358597" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585289310613">
+    <state width="1345" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585308377463" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585299628999">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585289310613" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585299628999" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585218250002">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Manage Blogs</title>
     <!-- Meta -->
@@ -211,6 +211,9 @@
                         <h5>Blogs</h5>
                         <span class="d-block m-t-5">Create, Update and Delete blogs here...</span>
                     </div>
+					<div class="card-header">
+						<a href="{{ url_for('new_blog') }}"><button class="btn btn-primary mr-10">Add New</button></a>
+                    </div>
                     <div class="card-body table-border-style">
                         <div class="table-responsive">
                             <table class="table table-hover">
@@ -229,7 +232,7 @@
                                         <td>{{ blog.id }}</td>
                                         <td>{{ blog.title }}</td>
                                         <td>{{ blog.date_posted }}</td>
-                                        <td><a href="/edit/{{blog.id}}"><button class="btn btn-outline-primary">Edit</button></a></td>
+                                        <td><a href="/edit/{{blog.id}}/update"><button class="btn btn-outline-primary">Edit</button></a></td>
                                         <td><a href="/delete/{{blog.id}}"><button class="btn btn-outline-danger">Delete</button></a></td>
                                     </tr>
 									{% endfor %}

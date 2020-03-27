@@ -1,6 +1,6 @@
 from flask import render_template, request, session, redirect, url_for, flash
 from profile import app, db, bcrypt
-from profile.forms import LoginForm, UpdateProfileForm
+from profile.forms import LoginForm, UpdateProfileForm, BlogForm
 from profile.models import User, Blogs, Testimonials, Projects, Contacts
 from flask_login import login_user, current_user, logout_user, login_required
 
@@ -76,7 +76,7 @@ def profile():
         current_user.fb_url = form.fb_url.data
         current_user.skype_id = form.skype_id.data
         db.session.commit()
-        flash('Your profile details updated','success')
+        flash('Your profile details updated', 'success')
         return redirect(url_for('profile'))
     elif request.method == 'GET':
         form.name.data = current_user.name
@@ -100,28 +100,36 @@ def editblogs():
     return render_template('editBlogs.html', blogs=blogs)
 
 
-@app.route('/edit/<int:id>', methods=['GET', 'POST'])
+@app.route('/edit/new', methods=['GET', 'POST'])
 @login_required
-def edit(id):
-    if request.method == 'POST':
-        inp_title = request.form.get('title')
-        inp_content = request.form.get('content')
-        inp_img = request.form.get('image')
+def new_blog():
+    form = BlogForm()
+    if form.validate_on_submit():
+        blog = Blogs(title=form.title.data, description=form.content.data, image=form.image.data)
+        db.session.add(blog)
+        db.session.commit()
+        flash('Your post has been created.', 'success')
+        return redirect('/editblogs')
+    return render_template('edit.html', form=form, heading='New Blog')
 
-        if id == 0:
-            blog = Blogs(title=inp_title, description=inp_content, image=inp_img)
-            db.session(blog)
-            db.session.commit()
-        else:
-            blog = Blogs.query.filter_by(id=id).first()
-            title = inp_title
-            description = inp_content
-            image = inp_img
-            db.session.commit()
-            return redirect('/editblogs')
-    blog = Blogs.query.filter_by(id=id).first()
 
-    return render_template('edit.html', blog=blog)
+@app.route('/edit/<int:id>/update', methods=['GET', 'POST'])
+@login_required
+def edit_blog(id):
+    blog = Blogs.query.get_or_404(id)
+    form = BlogForm()
+    if form.validate_on_submit():
+        blog.title = form.title.data
+        blog.description = form.content.data
+        blog.image = form.content.data
+        db.session.commit()
+        flash('Your Blog has been updated.', 'success')
+        return redirect(url_for('editblogs'))
+    elif request.method == 'GET':
+        form.title.data = blog.title
+        form.content.data = blog.description
+        form.image.data = blog.image
+    return render_template('edit.html', form=form, blog=blog, heading='Update Blog')
 
 
 @app.route('/logout')
@@ -130,7 +138,7 @@ def logout():
     return redirect(url_for('login'))
 
 
-@app.route('/delete/<string:id>', methods=['GET', 'POST'])
+@app.route('/delete/<int:id>', methods=['GET', 'POST'])
 @login_required
 def delete(id):
     blog = Blogs.query.filter_by(id=id).first()

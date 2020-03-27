@@ -92,3 +92,10 @@ class UpdateProfileForm(FlaskForm):
             user = User.query.filter_by(skype_id=skype_id.data).first()
             if user:
                 raise ValidationError('That skype_id is already exist.')
+
+
+class BlogForm(FlaskForm):
+    title = StringField('Title', validators=[DataRequired()])
+    content = TextAreaField('Content', validators=[DataRequired()])
+    image = StringField('Image File', validators=[DataRequired()])
+    submit = SubmitField('Post')
