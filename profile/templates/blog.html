@@ -11,7 +11,7 @@
             <div class="menu__wrapper d-none d-lg-block col-md-12">
                 <nav class="">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#posts">other posts</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -34,7 +34,7 @@
         </div>
         <nav class="mobile-menu__wrapper">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#other_posts">other posts</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -84,50 +84,24 @@
 
 <div class="row posts">
     <div class="col-md-5 mr-auto">
+        {% for blog in blogs %}
         <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">What’s new in the IT Industry?</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
+            <a href="{{ blog.id }}">
+                <h3 class="posts__title">{{ blog.title }}</h3>
+                <p class="posts__description">{{ blog.description[0:100] }}</p>
             </a>
         </div>
-        <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">How I organize my work with code</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
-            </a>
-        </div>
-        <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">How to use css-preprocessor</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
-            </a>
-        </div>
+        {% endfor %}
     </div>
     <div class="col-md-5 mr-auto">
+        {% for blog in blogs %}
         <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">What’s new in the IT Industry?</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
+            <a href="{{ blog.id }}">
+                <h3 class="posts__title">{{ blog.title }}</h3>
+                <p class="posts__description">{{ blog.description[0:100] }}</p>
             </a>
         </div>
-        <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">How I organize my work with code</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
-            </a>
-        </div>
-        <div class="posts__item">
-            <a href="">
-                <h3 class="posts__title">How to use css-preprocessor</h3>
-                <p class="posts__description">Invitation excellence imprudence understood it continuing to.
-                    Ye show done an into.</p>
-            </a>
-        </div>
+        {% endfor %}
     </div>
 </div>
 </section>

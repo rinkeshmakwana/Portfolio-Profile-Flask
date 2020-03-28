@@ -35,7 +35,8 @@ def index():
 def blog_route(id):
     user = User.query.all()
     blog = Blogs.query.filter_by(id=id).first()
-    return render_template('blog.html', blog=blog, user=user)
+    blogs = Blogs.query.all()
+    return render_template('blog.html', blog=blog, user=user, blogs=blogs)
 
 
 @app.route('/admin', methods=['GET', 'POST'])
