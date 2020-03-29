@@ -8,7 +8,7 @@ from flask_login import login_user, current_user, logout_user, login_required
 @app.route('/', methods=['GET', 'POST'])
 def index():
     user = User.query.all()
-    blogs = Blogs.query.all()
+    blogs = Blogs.query.order_by(Blogs.date_posted.desc())
     testimonials = Testimonials.query.all()
     projects = Projects.query.all()
 
@@ -122,7 +122,7 @@ def edit_blog(id):
     if form.validate_on_submit():
         blog.title = form.title.data
         blog.description = form.content.data
-        blog.image = form.content.data
+        blog.image = form.image.data
         db.session.commit()
         flash('Your Blog has been updated.', 'success')
         return redirect(url_for('editblogs'))
