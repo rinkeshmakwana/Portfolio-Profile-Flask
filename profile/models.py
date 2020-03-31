@@ -1,5 +1,6 @@
 from datetime import datetime
-from profile import db, login_manager
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+from profile import db, login_manager, app
 from flask_login import UserMixin
 
 
@@ -22,6 +23,19 @@ class User(db.Model, UserMixin):
     linkedin_url = db.Column(db.String(180), nullable=False)
     fb_url = db.Column(db.String(180), nullable=False)
     skype_id = db.Column(db.String(120), nullable=False)
+
+    def get_reset_token(self, expires_sec=1800):
+        s = Serializer(app.config['SECRET_KEY'], expires_sec)
+        return s.dumps({'id': self.id}).decode('utf-8')
+
+    @staticmethod
+    def verify_reset_token(token):
+        s = Serializer(app.config['SECRET_KEY'])
+        try:
+            id = s.loads(token)['id']
+        except:
+            return None
+        return User.query.get(id)
 
     def __repr__(self):
         return f"User('{self.name}', '{self.image_file}', '{self.email}', '{self.mobile}')"

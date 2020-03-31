@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Reset Password</title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="" />
+	<!-- Favicon icon -->
+	<link rel="icon" href="{{url_for('static', filename='imgadmin/favicon.ico')}}" type="image/x-icon">
+
+	<!-- vendor css -->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<!-- [ auth-signin ] start -->
+<body>
+<div class="auth-wrapper">
+	<div class="auth-content">
+		<div class="card">
+			<div class="row align-items-center text-center">
+				<div class="col-md-12">
+					<div class="card-body">
+						<img src="assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+						<h4 class="mb-3 f-w-400">Password Reset</h4>
+						<form action="" method="post">
+							{{ form.hidden_tag() }}
+                            <div class="form-group mb-3">
+								{{ form.email.label(class="floating-label") }}
+								{% if form.email.errors %}
+									{{ form.email(class="form-control is-invalid") }}
+									<div class="invalid-feedback">
+										{% for error in form.email.errors %}
+											<span>{{ error }}</span>
+										{% endfor %}
+									</div>
+								{% else %}
+									{{ form.email(class="form-control") }}
+								{% endif %}
+                            </div>
+								{{ form.submit(class="btn btn-block btn-primary mb-4") }}
+                        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- [ auth-signin ] end -->
+
+<!-- Required Js -->
+    <script src="{{url_for('static', filename='jsadmin/vendor-all.min.js')}}"></script>
+    <script src="{{url_for('static', filename='jsadmin/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename='jsadmin/ripple.js')}}"></script>
+    <script src="{{url_for('static', filename='jsadmin/pcoded.min.js')}}"></script>
+
+</body>
+
+</html>

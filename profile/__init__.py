@@ -10,8 +10,8 @@ app.config.update(
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT='465',
     MAIL_USE_SSL=True,
-    MAIL_USERNAME='ricks14348@gmail.com',
-    MAIL_PASSWORD='Ricky#acker',
+    MAIL_USERNAME='demo@gmail.com',
+    MAIL_PASSWORD='Demo@123',
 )
 mail = Mail(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/rinkesh_makwana'

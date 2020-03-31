@@ -76,7 +76,7 @@
                     			{{ form.remember.label(class="custom-control-label") }}
                             </div>
 								{{ form.submit(class="btn btn-block btn-primary mb-4") }}
-                            <p class="mb-2 text-muted"><a href="auth-reset-password.html" class="f-w-400">Forgot password?</a></p>
+                            <p class="mb-2 text-muted"><a href="{{ url_for('reset_request') }}" class="f-w-400">Forgot password?</a></p>
                         </form>
 					</div>
 				</div>
